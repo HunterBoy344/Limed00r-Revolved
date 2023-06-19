@@ -2,7 +2,7 @@ var agent = navigator.userAgent;
 var index = agent.indexOf("OS ");
 function goto_faq() {
     if(!String(window.location).match(/faq/)) {
-        window.location = 'faq.html';
+        window.location = 'install.html';
     }
     model = null;
 }
